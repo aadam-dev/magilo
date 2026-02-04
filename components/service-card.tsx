@@ -33,7 +33,7 @@ interface ServiceCardProps {
   /** Brief description of the service */
   description: string;
   /** List of specific services/items offered */
-  items: string[];
+  items: readonly string[];
 }
 
 /**

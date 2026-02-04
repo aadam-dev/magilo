@@ -75,12 +75,12 @@ export function Hero() {
         aria-hidden="true"
       />
       
-      {/* Animated floating orb - bottom left */}
+      {/* Animated floating orb - bottom left (positioned lower to avoid content) */}
       <div 
-        className="absolute bottom-16 left-[5%] w-80 h-80 rounded-full animate-float opacity-20"
+        className="absolute -bottom-20 left-[5%] w-80 h-80 rounded-full animate-float opacity-10"
         style={{ 
-          background: "radial-gradient(circle, rgba(255,255,255,0.3) 0%, transparent 70%)",
-          filter: "blur(80px)",
+          background: "radial-gradient(circle, rgba(255,255,255,0.2) 0%, transparent 70%)",
+          filter: "blur(100px)",
           animationDelay: "2s",
           animationDuration: "8s"
         }}
@@ -96,7 +96,7 @@ export function Hero() {
       {/* -------------------------------------------------------------------- */}
       {/*                         MAIN CONTENT                                 */}
       {/* -------------------------------------------------------------------- */}
-      <div className="container mx-auto px-4 relative z-10">
+      <div className="container mx-auto px-4 relative z-10 pb-8">
         <div className="max-w-4xl mx-auto text-center">
           
           {/* Badge - Animated entrance */}
@@ -153,7 +153,7 @@ export function Hero() {
               asChild 
               size="lg" 
               variant="outline" 
-              className="border-white/30 text-white hover:bg-white hover:text-navy px-8 py-6 text-lg font-semibold backdrop-blur-sm transition-all duration-300 hover:scale-[1.02] hover:border-white"
+              className="border-2 border-white bg-white/10 text-white hover:bg-white hover:text-navy px-8 py-6 text-lg font-semibold backdrop-blur-sm transition-all duration-300 hover:scale-[1.02]"
             >
               <Link href="/college">
                 <GraduationCap className="w-5 h-5 mr-2" aria-hidden="true" />
@@ -166,16 +166,16 @@ export function Hero() {
           {/*                      TRUST INDICATORS                            */}
           {/* ---------------------------------------------------------------- */}
           <div 
-            className="mt-14 flex flex-wrap items-center justify-center gap-x-10 gap-y-4 text-white/60 text-sm animate-fade-in-up animation-delay-500"
+            className="mt-14 flex flex-wrap items-center justify-center gap-x-10 gap-y-4 text-white text-sm animate-fade-in-up animation-delay-500"
             aria-label="Trust indicators"
           >
             {trustIndicators.map((indicator) => (
               <div 
                 key={indicator.id} 
-                className="flex items-center gap-2 transition-colors hover:text-white/90"
+                className="flex items-center gap-2 transition-colors hover:text-orange"
               >
                 <CheckCircle2 
-                  className="w-4 h-4 text-orange/80" 
+                  className="w-4 h-4 text-orange" 
                   aria-hidden="true"
                 />
                 <span className="font-medium">{indicator.text}</span>
@@ -185,9 +185,9 @@ export function Hero() {
         </div>
       </div>
       
-      {/* Bottom fade gradient for smooth section transition */}
+      {/* Bottom fade gradient for smooth section transition - minimal to avoid covering content */}
       <div 
-        className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-background to-transparent"
+        className="absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-background/50 to-transparent pointer-events-none"
         aria-hidden="true"
       />
     </section>
