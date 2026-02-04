@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Magilo Art College & Printing Hub
+
+A modern website for Magilo Art College & Printing Hub - Adenta's premier hub for professional printing services and vocational art excellence.
+
+## Features
+
+- **Home Page** - Hero section, service grid, college preview, trust bar, portfolio showcase
+- **Services Page** - Detailed printing and design service offerings with WhatsApp CTAs
+- **College Page** - Course cards, benefits section, FAQ accordion, admission inquiry
+- **Portfolio Page** - Filterable image gallery with lightbox modal
+- **About Page** - Company info, mission/vision, contact section
+
+## Tech Stack
+
+- **Framework:** Next.js 14 (App Router)
+- **Styling:** Tailwind CSS
+- **Components:** shadcn/ui
+- **Icons:** Lucide React
+- **Fonts:** Inter + Montserrat
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contact
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Phone:** +233 24 469 3327 / +233 27 363 6222
+- **Location:** Adenta, Greater Accra, Ghana
+- **P.O. Box:** AF 50, Adenta, Ghana
