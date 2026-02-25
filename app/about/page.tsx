@@ -77,7 +77,7 @@ const values = [
   {
     icon: Eye,
     title: "Our Vision",
-    description: "To be the leading creative hub in Ghana, bridging the gap between professional printing services and quality art education.",
+    description: "To be a trusted creative hub in Ghana, bridging the gap between professional printing services and quality art education.",
   },
   {
     icon: Heart,
@@ -153,13 +153,13 @@ export default function AboutPage() {
                   printing services, business consulting, and vocational education work hand in hand.
                 </p>
                 <p>
-                  Located in the heart of Adenta, we&apos;ve grown from a dedicated design studio 
+                  Based in Adenta, we&apos;ve grown from a dedicated design studio 
                   into a comprehensive creative and business hub that serves entrepreneurs, corporations, 
                   schools, and individuals across Ghana.
                 </p>
                 <p>
                   Our over two decades of experience have expanded our offerings to include strategic business 
-                  services like web design, pitch deck creation, business plan documentation, and ESG assessments—
+                  services like web design, pitch deck creation, business plan documentation, and digital marketing consultancy—
                   making us your one-stop partner for both creative and business growth needs.
                 </p>
                 <p>
@@ -257,15 +257,19 @@ export default function AboutPage() {
                 ))}
               </div>
 
-              {/* Map placeholder */}
-              <div className="aspect-video bg-gray-200 rounded-xl overflow-hidden">
-                <div className="w-full h-full flex items-center justify-center">
-                  <div className="text-center text-gray-500">
-                    <MapPin className="w-12 h-12 mx-auto mb-2" />
-                    <p className="text-sm">Google Maps Embed</p>
-                    <p className="text-xs text-gray-400">Adenta, Greater Accra, Ghana</p>
-                  </div>
-                </div>
+              {/* Google Maps embed - Magilo Art College location */}
+              <div className="rounded-xl overflow-hidden border border-gray-200 w-full">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.9928371762517!2d-0.15417999999999998!3d5.7141674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9dc91ffb1cf5%3A0x420b65ac0e900de8!2sMagilo%20Art%20College!5e0!3m2!1sen!2sch!4v1772038806935!5m2!1sen!2sch"
+                  width="100%"
+                  height="450"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Magilo Art College location on Google Maps"
+                  className="min-h-[280px] w-full"
+                />
               </div>
 
               {/* Quick contact */}

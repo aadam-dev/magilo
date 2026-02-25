@@ -210,7 +210,7 @@ export const advantages: Advantage[] = [
   },
   {
     title: "Convenient Location",
-    description: "Conveniently based in the heart of Adenta, easily accessible.",
+    description: "Based in Adenta, easily accessible.",
   },
 ];
 
@@ -263,14 +263,14 @@ export const studentLifeBullets = [
   "Work on live client projects",
   "Build a professional portfolio",
   "Network with industry professionals",
-  "Access state-of-the-art equipment",
+  "Access professional printing and design equipment",
   "Flexible class schedules",
 ] as const;
 
 /** Prospectus / about copy */
 export const prospectusCopy = {
   aboutMagilo:
-    "Magilo Art College & IT Training Centre has been part of Adenta's creative and vocational education landscape for over 25 years. We combine art, design, and technology in a live production environment—our students learn in a functioning print shop and design studio, working on real client projects every day. Based in the heart of Adenta, we offer programmes for adults and children, from graphic design and textiles to computer literacy and cybersecurity.",
+    "Magilo Art College & IT Training Centre has been part of Adenta's creative and vocational education landscape for over 25 years. We combine art, design, and technology in a live production environment—our students learn in a functioning print shop and design studio, working on real client projects every day. Based in Adenta, we offer programmes for adults and children, from graphic design and textiles to computer literacy and cybersecurity.",
   studentLifeIntro:
     "At Magilo, education extends beyond the classroom. Our students are immersed in a creative community that nurtures talent, encourages collaboration, and prepares them for real-world success.",
   contactApply:

@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     "web design portfolio Ghana",
     "logo design examples Accra",
     "brand identity portfolio Ghana",
-    "best graphic design work Ghana",
+    "graphic design portfolio Ghana",
     "printing samples Adenta",
     "creative portfolio Accra",
   ],

@@ -33,7 +33,7 @@ import {
   Presentation,
   FolderOpen,
   Search,
-  Leaf
+  Megaphone
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -46,7 +46,7 @@ import { WHATSAPP_LINK_QUOTE } from "@/lib/site-config";
  */
 export const metadata: Metadata = {
   title: "Printing, Graphic Design, Web Development & Business Consulting Services | Adenta, Accra Ghana",
-  description: "25+ years of professional printing & graphic design in Ghana. Based in Adenta, Accra—serving clients across Ghana. T-shirt printing, billboards, banners, web design, business plans, pitch decks, ESG assessment. Best printing company Ghana.",
+  description: "25+ years of professional printing & graphic design in Ghana. Based in Adenta, Accra—serving clients across Ghana. T-shirt printing, billboards, banners, web design, business plans, pitch decks, digital marketing. Professional printing company Ghana.",
   keywords: [
     "printing services Adenta",
     "printing services Accra",
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     "pitch deck design Accra",
     "pitch deck Ghana",
     "data room setup Ghana",
-    "ESG assessment Ghana",
+    "digital marketing consultancy Ghana",
     "business research Ghana",
     "graphic design services Accra",
     "logo design Ghana",
@@ -79,7 +79,7 @@ export const metadata: Metadata = {
     "heat transfer printing Accra",
     "large format printing Ghana",
     "affordable printing Adenta",
-    "best printing company Ghana",
+    "professional printing company Ghana",
     "professional printing Accra",
   ],
   openGraph: {
@@ -190,9 +190,9 @@ const serviceCategories = [
         description: "In-depth market research, competitive analysis, and industry insights to inform strategic decisions.",
       },
       {
-        icon: Leaf,
-        name: "ESG Assessment",
-        description: "Environmental, Social, and Governance assessments to meet compliance requirements and attract conscious investors.",
+        icon: Megaphone,
+        name: "Digital Marketing Consultancy",
+        description: "Strategy and support to grow your brand online—social media, content, and campaigns tailored to your business.",
       },
     ],
   },

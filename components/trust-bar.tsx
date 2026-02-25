@@ -97,7 +97,7 @@ export function TrustBar() {
         {/* ---------------------------------------------------------------- */}
         <div className="border-t border-white/10 pt-12">
           <p className="text-center text-gray-400 text-sm mb-10 font-medium">
-            Trusted by leading institutions and businesses across Ghana—including SHS Visual Arts students who ace their exams.
+            Trusted by institutions and businesses across Ghana—including SHS Visual Arts students who ace their exams.
           </p>
           
           <div 

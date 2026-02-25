@@ -60,7 +60,7 @@ import { WHATSAPP_LINK_ADMISSION } from "@/lib/site-config";
  */
 export const metadata: Metadata = {
   title: "Art College, IT Training & Graphic Design School | Adenta, Accra Ghana",
-  description: "Best art college & IT training centre in Ghana. Based in Adenta—welcoming students from across Ghana. Graphic design, fine arts, textiles, cartooning, computer literacy, cybersecurity & more. Kids IT classes. 25+ years experience. Enroll now!",
+  description: "Established art college & IT training centre in Ghana. Based in Adenta—welcoming students from across Ghana. Graphic design, fine arts, textiles, cartooning, computer literacy, cybersecurity & more. Kids IT classes. 25+ years experience. Enroll now!",
   keywords: [
     "art college Ghana",
     "art college Accra",
@@ -95,14 +95,14 @@ export const metadata: Metadata = {
     "Photoshop course Accra",
     "Illustrator training Ghana",
     "entrepreneurship training Ghana",
-    "best art school Ghana",
+    "art school Ghana",
     "affordable art college Accra",
     "practical art training Ghana",
     "online safety course kids Ghana",
   ],
   openGraph: {
-    title: "Magilo Art College & IT Training - Best Creative & IT School | Adenta, Accra Ghana",
-    description: "Learn graphic design, fine arts, textiles, IT & computer skills at Ghana's premier art college. Kids IT classes, hands-on training, 25+ years experience.",
+    title: "Magilo Art College & IT Training - Creative & IT School | Adenta, Accra Ghana",
+    description: "Learn graphic design, fine arts, textiles, IT & computer skills at an established art college in Ghana. Kids IT classes, hands-on training, 25+ years experience.",
     url: "https://magilo.com/college",
   },
   alternates: {
@@ -309,7 +309,7 @@ export default function CollegePage() {
                   "Work on live client projects",
                   "Build a professional portfolio",
                   "Network with industry professionals",
-                  "Access state-of-the-art equipment",
+                  "Access professional printing and design equipment",
                   "Flexible class schedules",
                 ].map((item, index) => (
                   <li key={index} className="flex items-center gap-3">

@@ -90,7 +90,7 @@ export const metadata: Metadata = {
     "pitch deck design Accra",
     "investor pitch deck Ghana",
     "data room setup Ghana",
-    "ESG assessment Ghana",
+    "digital marketing consultancy Ghana",
     "business research Ghana",
     // Branding
     "logo design Ghana",
@@ -100,7 +100,7 @@ export const metadata: Metadata = {
     // Location-based
     "printing near me Adenta",
     "graphic designer near me Accra",
-    "best printing company Ghana",
+    "professional printing company Ghana",
     "affordable printing Accra",
     // Art College
     "art college Ghana",
@@ -256,7 +256,7 @@ const jsonLd = {
           { "@type": "Offer", itemOffered: { "@type": "Service", name: "Pitch Deck Design" } },
           { "@type": "Offer", itemOffered: { "@type": "Service", name: "Data Room Creation" } },
           { "@type": "Offer", itemOffered: { "@type": "Service", name: "Industry Research" } },
-          { "@type": "Offer", itemOffered: { "@type": "Service", name: "ESG Assessment" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Digital Marketing Consultancy" } },
         ],
       },
     ],

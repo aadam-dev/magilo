@@ -29,7 +29,7 @@ import { SITE_URL } from "@/lib/site-config";
  */
 export const metadata: Metadata = {
   title: "Magilo - 25+ Years Graphic Design, Printing & Web Development | Adenta, Accra Ghana",
-  description: "Ghana's premier graphic design & printing company with 25+ years experience. Based in Adenta, Accra—serving clients across Ghana. Professional printing, web design, business plans, pitch decks, billboards, banners, logo design & business consulting.",
+  description: "Established graphic design & printing company with 25+ years experience. Based in Adenta, Accra—serving clients across Ghana. Professional printing, web design, business plans, pitch decks, billboards, banners, logo design & business consulting.",
   keywords: [
     "graphic design Ghana",
     "graphic design Accra",

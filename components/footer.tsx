@@ -57,7 +57,7 @@ const businessServices = [
   "Logo & Brand Identity",
   "Business Plan Writing",
   "Pitch Deck Design",
-  "ESG Assessment",
+  "Digital Marketing Consultancy",
 ] as const;
 
 /**

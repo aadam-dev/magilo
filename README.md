@@ -1,6 +1,6 @@
 # Magilo Art College & Printing Hub
 
-A modern website for Magilo Art College & Printing Hub - Adenta's premier hub for professional printing services and vocational art excellence.
+A modern website for Magilo Art College & Printing Hub—an Adenta-based hub for professional printing services and vocational art excellence.
 
 ## Features
 
