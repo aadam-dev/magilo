@@ -1,0 +1,11 @@
+#!/bin/sh
+# Remove Cursor co-author line so Cursor is not listed as a project contributor.
+# GitHub attributes co-authors as contributors; this keeps commits attributed to you only.
+msg_file="$1"
+if [ -z "$msg_file" ] || [ ! -f "$msg_file" ]; then
+  exit 0
+fi
+# Strip lines that add Cursor as co-author (case-insensitive); keep rest of message
+tmp=$(mktemp)
+grep -iv '^Co-authored-by: Cursor <' "$msg_file" > "$tmp" && mv "$tmp" "$msg_file"
+exit 0

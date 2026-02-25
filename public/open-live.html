@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open Magilo live (ngrok)</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 480px; margin: 2rem auto; padding: 0 1rem; }
+    h1 { font-size: 1.25rem; }
+    ol { padding-left: 1.25rem; line-height: 1.6; }
+    a.big { display: inline-block; margin: 1rem 0; padding: 0.75rem 1.5rem; background: #1e3a5f; color: #fff; text-decoration: none; border-radius: 8px; font-weight: 600; }
+    a.big:hover { background: #2c5282; }
+    code { background: #f1f5f9; padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; }
+    .note { background: #fef3c7; padding: 0.75rem; border-radius: 8px; margin-top: 1rem; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <h1>Open Magilo live URL</h1>
+  <p>Use the link below. On the <strong>ngrok warning page</strong>, click <strong>“Visit Site”</strong> to continue. (Free ngrok shows this once per browser; you may need to allow cookies for <code>ngrok-free.dev</code>.)</p>
+  <p><a class="big" href="https://unpatentable-berberidaceous-brooks.ngrok-free.dev" target="_blank" rel="noopener">Open live site →</a></p>
+  <ol>
+    <li>Click the button above (or the ngrok URL in your terminal).</li>
+    <li>If you see “You are about to visit…”, click <strong>Visit Site</strong>.</li>
+    <li>If the page stays blank, check that the dev server is running on port 3001 and ngrok is running (<code>ngrok http 3001</code>).</li>
+  </ol>
+  <div class="note">
+    <strong>Still not loading?</strong> Try in a private/incognito window, or use a browser extension (e.g. ModHeader) to add the header <code>ngrok-skip-browser-warning: true</code> for <code>*.ngrok-free.dev</code>.
+  </div>
+</body>
+</html>
