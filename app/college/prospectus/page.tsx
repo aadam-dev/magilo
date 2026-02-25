@@ -158,6 +158,21 @@ export default function ProspectusPage() {
           </ul>
         </section>
 
+        {/* Equipment & materials */}
+        <section className="mb-14 print:break-inside-avoid" aria-labelledby="equipment-heading">
+          <h2 id="equipment-heading" className="text-xl font-bold font-heading text-navy mb-4">
+            Equipment & materials
+          </h2>
+          <ul className="space-y-3 text-gray-600 text-sm leading-relaxed">
+            <li>
+              <strong className="text-navy">Art & design:</strong> {prospectusCopy.equipmentArt}
+            </li>
+            <li>
+              <strong className="text-navy">IT courses:</strong> {prospectusCopy.equipmentIT}
+            </li>
+          </ul>
+        </section>
+
         {/* Student life */}
         <section className="mb-14 print:break-inside-avoid" aria-labelledby="student-life-heading">
           <h2 id="student-life-heading" className="text-xl font-bold font-heading text-navy mb-4">

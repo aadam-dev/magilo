@@ -252,9 +252,14 @@ export const faqItems: FAQItem[] = [
       "Our kids' IT courses are designed for children aged 6-14. Computer Basics and Digital Art are great for younger kids (6-10), while Typing Mastery and Digital Citizenship are ideal for ages 8-14. Classes are small and led by patient, experienced instructors.",
   },
   {
-    question: "Do I need my own computer for IT courses?",
+    question: "Do I need my own computer or device for IT courses?",
     answer:
-      "No. We provide all equipment and computers for training at our facility. However, students are welcome to bring their own laptops if they prefer.",
+      "Yes. Most of our IT courses are run online, so you need your own device. For adult IT courses, a laptop or computer with internet access is required. For kids' IT courses, your child will need access to a device (laptop, tablet, or phone) depending on the course—we can confirm the exact requirement when you enrol.",
+  },
+  {
+    question: "Do I need to bring my own art materials?",
+    answer:
+      "For art and design courses, you will need the required tools and materials. You can purchase them yourself before or during the course, or pay Magilo to source them for you. We will give you a list and guidance when you enrol.",
   },
 ];
 
@@ -275,4 +280,10 @@ export const prospectusCopy = {
     "At Magilo, education extends beyond the classroom. Our students are immersed in a creative community that nurtures talent, encourages collaboration, and prepares them for real-world success.",
   contactApply:
     "Ready to apply or need more information? Visit our college page to submit an admission inquiry, or reach out by phone or WhatsApp. We look forward to hearing from you.",
+  /** Equipment & materials – art: purchase yourself or pay Magilo to source */
+  equipmentArt:
+    "You'll need the required art tools and materials. You can buy these yourself or pay Magilo to get them for you; we'll provide a list when you enrol.",
+  /** Equipment & materials – IT: own device needed (most courses run online) */
+  equipmentIT:
+    "Most IT courses are run online. You'll need your own device: a laptop or computer for adult courses; for kids' courses, a laptop, tablet, or phone may be suitable depending on the programme.",
 } as const;
